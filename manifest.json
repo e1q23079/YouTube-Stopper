@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube STOPPER",
+    "version": "1.0",
+    
+    "description": "YouTuber STOPPER",
+    
+
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["main.js"],
+        "run_at":"document_end",
+        "all_frames":true
+      }
+    ],
+    "permissions":[]
+  }
+  
